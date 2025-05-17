@@ -1,4 +1,4 @@
-# 🚀 Notification Service with FastAPI nd Redis Cloud
+# 🚀 Notification Service with FastAPI and Redis Cloud
 
 This project implements a simple notification service using FastAPI and Redis. Users can send notifications of different types (Email, SMS, In-App) through a web form, which are then enqueued in a Redis queue. A background worker processes these notifications (placeholder for real logic such as sending emails or SMS).
 
